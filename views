@@ -1,0 +1,13 @@
+CREATE VIEW high_salary_employees AS
+SELECT name, salary
+FROM employees
+WHERE salary > 50000;
+
+SELECT * FROM high_salary_employees;
+
+OUTPUT:
+name  | salary
+------|-------
+Rahul | 55000
+Arjun | 65000
+Sneha | 60000
